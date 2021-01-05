@@ -1,0 +1,14 @@
+:host ::ng-deep {
+  @import "~ol/ol";
+}
+
+:host {
+  width: inherit;
+  height: inherit;
+}
+
+.map-container {
+  width: inherit;
+  height: inherit;
+  z-index: 1;
+}
