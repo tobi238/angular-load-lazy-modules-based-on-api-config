@@ -2,3 +2,9 @@
   width: inherit;
   height: inherit;
 }
+
+:host::ng-deep {
+  app-map-component {
+    height: 25vh;
+  }
+}
